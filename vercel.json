@@ -2,13 +2,19 @@
   "rewrites": [
     {
       "source": "/home",
-      "destination": "/contact.html"
-    }
-  ],
-  "routes": [
+      "destination": "/home.html"
+    },
     {
-      "src": "/(.*)",
-      "dest": "/404.html"
+      "source": "/project",
+      "destination": "/project.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact.html"
+    },
+    {
+      "source": "/resume",
+      "destination": "/reasume.html"
     }
   ]
 }
